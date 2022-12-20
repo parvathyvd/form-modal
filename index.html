@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avato Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <header>
+        <span class="logo">AVATO</span>
+    </header>
+    <main>
+        <form class="form-control">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname" value="" placeholder="Name*" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value=""placeholder="Email*" required>
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone" name="phone" value="" placeholder="Phone*"required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Your message"></textarea>
+            <button class="btn btn-submit" type="submit">Submit</button>
+        </form>
+        <div class="backdrop hide">
+        <div class="modal hide">
+            <div class="form-result">
+            </div>
+            <span class="close">X</span>
+        </div>
+        </div>
+    </main>
+    <footer class="tool-box">
+        <div class="btn-left">
+            <button class="btn">button1</button>
+            <button class="btn">button2</button>
+        </div>
+        <div class="btn-right">
+            <button class="btn">button3</button>
+            <button class="btn">button4</button>
+        </div>
+    </footer>
+</body>
+</html>
